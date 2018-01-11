@@ -12,7 +12,40 @@
 
 	<section class="main">
 <?php
-echo "string";
+$a = "my NAME is ratin";
+$b = 5;
+$c = 5.6;
+$d = 6.56;
+$e = true;
+$f = array("mango","apple","pineapple","sweet");
+
+class student
+{
+  function dep()
+  {
+  return "bangla";
+  }
+
+  function details()
+  {
+    echo $this->dep();
+  }
+}
+
+$st = new student();
+
+
+$g = null;
+
+echo $a."<br>";//string
+echo $b."<br>";//integer
+echo $c."<br>";//double
+echo $d."<br>";//double
+echo $e."<br>";//boolean
+echo $f."<br>";//array
+$st->details();//object
+echo $g;//null
+
 
  ?>
 
