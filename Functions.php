@@ -14,14 +14,27 @@
 
 <?php
 	
-	$color = array("blue","skycolor","red","green");
+//there are about 100+ BUILDin function in PHP.for this php is so powerful
 
-	foreach ($color as $c) //"forech normally string er somoy kaj kore"
-	{
-		echo "$c <br>";//here color er vator ja ja value passe ta sob "c" er vatore store kore print korsa
-	}
-	
+function school($name="my achool is good",$year="1900")
+{
+	echo "$name is a good school,"."it start in $year<br>";
+}
 
+school("satkhira govt school","1990");
+school("satkhira govt collage","1980");
+school("satkhira govt pean","1970");
+school();
+
+
+
+function sum($x,$y)
+{
+	$z=$x+$y;
+	return $z;
+}
+
+echo "the sum is= ".sum(5,10);
 
 ?>
 
