@@ -22,7 +22,7 @@
 
 	//do,while:-
 
-	$b = 11;
+	$b = 5;
 	do//do always code ta age age kore nea pore while a jay
 	{
 		echo "the number is $b <br>";
