@@ -13,25 +13,25 @@
 	<section class="main">
 
 <?php
-	
-	
-	$coding = "java";
-
-	switch ($coding) {
-		case "html":
-			echo "i love html";
-			break;
-		case "c++":
-			echo "i love c++";
-			break;
-		case "java":
-			echo "i love java";
-			break;
-		
-		default:
-			echo "i love programming";
-			break;
+	//while:-
+	$a = 1;
+	while ($a <= 10) {
+		echo "the number is=$a <br> ";
+		$a++;//a=a+1
 	}
+
+	//do,while:-
+
+	$b = 11;
+	do//do always code ta age age kore nea pore while a jay
+	{
+		echo "the number is $b <br>";
+		$b++;
+	}
+
+	while ($b <= 10) 
+	
+
 
 ?>
 
